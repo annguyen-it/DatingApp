@@ -1,0 +1,16 @@
+{
+  "editor.fontFamily": " Fira Code Retina, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 20,
+  "[csharp]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4, 
+  },
+  "files.exclude": {
+    "**/bin": true,
+    "**/obj": true
+  },
+  "editor.minimap.maxColumn": 50,
+  "csharpextensions.privateMemberPrefix": "_",
+  "csharpextensions.useThisForCtorAssignments": false
+}
