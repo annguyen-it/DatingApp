@@ -12,5 +12,5 @@
   },
   "editor.minimap.maxColumn": 50,
   "csharpextensions.privateMemberPrefix": "_",
-  "csharpextensions.useThisForCtorAssignments": false
+  "csharpextensions.useThisForCtorAssignments": false,
 }

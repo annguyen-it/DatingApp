@@ -442,3 +442,9 @@ $RECYCLE.BIN/
 !.vscode/extensions.json
 
 appsettings.json
+
+ssl
+/dist
+/tmp
+/out-tsc
+/bazel-out
