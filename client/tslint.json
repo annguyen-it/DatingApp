@@ -7,10 +7,14 @@
     "align": {
       "options": [
         "parameters",
-        "statements",
+        "statements"
       ]
     },
     "array-type": false,
+    "arrow-parens": [
+      "error",
+      "always"
+    ],
     "arrow-return-shorthand": true,
     "curly": true,
     "deprecation": {

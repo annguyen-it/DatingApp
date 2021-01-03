@@ -444,7 +444,7 @@ $RECYCLE.BIN/
 appsettings.json
 
 ssl
-/dist
-/tmp
-/out-tsc
-/bazel-out
+dist
+tmp
+out-tsc
+bazel-out

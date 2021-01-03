@@ -5,16 +5,14 @@ import { map } from 'rxjs/operators';
 import { User } from '../_models/user';
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: 'root'
 })
 export class AccountService {
   baseUrl = 'https://localhost:5001/api/';
   private currentUserSource = new ReplaySubject<User>(1);
   currentUser$ = this.currentUserSource.asObservable();
 
-  constructor(private http: HttpClient) {
-    console.log(this.currentUser$);
-  }
+  constructor(private http: HttpClient) {}
 
   register(model: any) {
     return this.http.post(this.baseUrl + 'account/register', model).pipe(
