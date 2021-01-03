@@ -13,4 +13,10 @@
   "editor.minimap.maxColumn": 50,
   "csharpextensions.privateMemberPrefix": "_",
   "csharpextensions.useThisForCtorAssignments": false,
+  "cSpell.words": [
+    "datepicker",
+    "devkit",
+    "titlecase",
+    "toastr"
+  ],
 }
