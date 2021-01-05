@@ -28,18 +28,12 @@
     "editor.formatOnSave": false
   },
   "[json]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "editor.formatOnSave": false
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "editor.formatOnSave": false
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
   },
   "[typescript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",

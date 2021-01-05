@@ -3,5 +3,5 @@
   "trailingComma": "none",
   "endOfLine": "auto",
   "arrowParens": "always",
-  "bracketSpacing": true,
+  "bracketSpacing": true
 }
