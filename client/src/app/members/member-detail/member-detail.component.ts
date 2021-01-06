@@ -5,7 +5,7 @@ import {
   NgxGalleryImage,
   NgxGalleryOptions
 } from '@kolkov/ngx-gallery';
-import { MembersService } from 'src/app/services/members.service';
+import { MembersService } from 'src/app/_services/members.service';
 import { Member } from 'src/app/_models/member';
 
 @Component({
