@@ -20,8 +20,9 @@ import { NavComponent } from './nav/nav.component';
 import { NotFoundComponent } from './errors/not-found/not-found.component';
 import { RegisterComponent } from './register/register.component';
 import { ServerErrorComponent } from './errors/server-error/server-error.component';
-import { SharedModule } from './_models/shared.module';
+import { SharedModule } from './_modules/shared.module';
 import { TestErrorsComponent } from './errors/test-errors/test-errors.component';
+import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { TestErrorsComponent } from './errors/test-errors/test-errors.component'
     NotFoundComponent,
     RegisterComponent,
     ServerErrorComponent,
-    TestErrorsComponent
+    TestErrorsComponent,
+    PhotoEditorComponent
   ],
   imports: [
     AppRoutingModule,

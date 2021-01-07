@@ -1,7 +1,6 @@
 {
   "csharpextensions.privateMemberPrefix": "_",
   "csharpextensions.useThisForCtorAssignments": false,
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.fontFamily": " Fira Code Retina, Consolas, 'Courier New', monospace",
   "editor.fontSize": 13,
   "editor.formatOnSave": true,
@@ -12,6 +11,8 @@
     "javascript",
     "typescript"
   ],
+  "omnisharp.autoStart": true,
+  "omnisharp.useEditorFormattingSettings": false,
   "files.exclude": {
     "**/bin": true,
     "**/obj": true
@@ -19,6 +20,8 @@
   "[csharp]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
   },
   "[javascript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
