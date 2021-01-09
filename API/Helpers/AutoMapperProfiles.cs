@@ -12,7 +12,7 @@ namespace API.Helpers
         {
             CreateMap<AppUser, MemberDto>()
                 .ForMember(
-                    dest => dest.PhotoUrl, 
+                    dest => dest.PhotoUrl,
                     opt => opt.MapFrom(
                         src => src.Photos
                             .FirstOrDefault(x => x.IsMain).Url
@@ -26,6 +26,7 @@ namespace API.Helpers
                 );
             CreateMap<Photo, PhotoDto>();
             CreateMap<MemberUpdateDto, AppUser>();
+            CreateMap<RegisterDto, AppUser>();
         }
     }
 }

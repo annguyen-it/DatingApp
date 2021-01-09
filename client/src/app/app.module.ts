@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 
@@ -23,6 +23,8 @@ import { ServerErrorComponent } from './errors/server-error/server-error.compone
 import { SharedModule } from './_modules/shared.module';
 import { TestErrorsComponent } from './errors/test-errors/test-errors.component';
 import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
+import { TextInputComponent } from './_forms/text-input/text-input.component';
+import { DateInputComponent } from './_forms/date-input/date-input.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { PhotoEditorComponent } from './members/photo-editor/photo-editor.compon
     RegisterComponent,
     ServerErrorComponent,
     TestErrorsComponent,
-    PhotoEditorComponent
+    PhotoEditorComponent,
+    TextInputComponent,
+    DateInputComponent
   ],
   imports: [
     AppRoutingModule,
@@ -47,6 +51,7 @@ import { PhotoEditorComponent } from './members/photo-editor/photo-editor.compon
     BrowserModule,
     FormsModule,
     HttpClientModule,
+    ReactiveFormsModule,
     SharedModule
   ],
   providers: [
